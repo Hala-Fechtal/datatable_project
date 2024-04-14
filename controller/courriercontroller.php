@@ -23,6 +23,7 @@ function afficher()
     require_once 'views/datatable.php';
 
 }
+/*
 function updateAction()
 {
 
@@ -30,4 +31,4 @@ function updateAction()
     edit($id, $N_D_ORDRE, $DATE_BO, $EXPEDITEUR, $N_D_ORDRE_EXPEDITEUR, $DATE_COURRIER,$OBJET_DU_COURRIER, $DIRECTION_EN_PRIORITE,
     $DIRECTION_SECONDAIRE,$CONSIGNES,$AVANCEMENT);
     header('location:views/datatable.php');
-}
+}*/
