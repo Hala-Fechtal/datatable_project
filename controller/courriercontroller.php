@@ -18,7 +18,7 @@ function afficher()
 {
 
 
-     $matable = afficherAction();
+     $courriers = afficherAction();
    
     require_once 'views/datatable.php';
 

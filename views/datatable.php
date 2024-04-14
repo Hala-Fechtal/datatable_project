@@ -54,17 +54,17 @@
       </thead>
 
       <tbody>
-      <?php  foreach ($matable as $ma_table): ?>
+      <?php  foreach ($courriers as $courrier): ?>
             <tr>
-                <td><?= $ma_table['ID'];  ?></td>
-                <td><?= $ma_table['N_ORDRE'];?></td>
-                <td><?= $ma_table['DATE_BO'];?></td>
-                <td><?= $ma_table['EXPEDITEUR'];?></td>
-                <td><?= $ma_table['N_D_ORDRE_EXPEDITEUR'];?></td>
-                <td><?= $ma_table['DATE_COURRIER']; ?></td>
-                <td><?= $ma_table['OBJET_DU_COURRIER'];  ?></td>
+                <td><?= $courrier['ID'];  ?></td>
+                <td><?= $courrier['N_ORDRE'];?></td>
+                <td><?= $courrier['DATE_BO'];?></td>
+                <td><?= $courrier['EXPEDITEUR'];?></td>
+                <td><?= $courrier['N_D_ORDRE_EXPEDITEUR'];?></td>
+                <td><?= $courrier['DATE_COURRIER']; ?></td>
+                <td><?= $courrier['OBJET_DU_COURRIER'];  ?></td>
                 <td>
-                    <a href="edit.php&id=<?php echo $ma_table->id?>" class="btn btn-success btn-sm">Modifier</a>
+                    <a href="edit.php&id=<?php echo $courrier->id?>" class="btn btn-success btn-sm">Modifier</a>
                     
                 </td>
             </tr>
